@@ -1,0 +1,72 @@
+/**************************************************/
+/* General Styles for Site
+/**************************************************/
+@charset "UTF-8";
+/* CSS Document */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;  
+}
+
+.max-width-wrapper {
+  min-height: 100%; 
+  max-width: 1440px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+ } 
+
+img {
+  width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+
+/* Path - How it works */
+.section-3-how-works-path-container {
+	position: relative;
+}
+
+.section-3-how-works-circle-container {
+	/* display: flex;
+	flex-direction: row; */
+}
+
+.path {
+	margin-left: 50px;
+}
+#circle-1 {
+  display: inline;
+	margin-top: -20px;
+	margin-right: 300px;
+}
+
+#circle-2 {
+  display: inline;
+	margin-top: -20px;
+	margin-right: 300px;
+}
+
+#circle-3 {
+  display: inline;
+	margin-top: -20px;
+	
+}
