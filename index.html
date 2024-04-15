@@ -10,22 +10,25 @@
   <title>Frontend Mentor | Coffeeroasters subscription site</title>
 </head>
 <body>
-  <header>
-    <div class="header-wrapper">
-      <div class="header-container-navbar">
-        <figure class="header-container-navbar-logo">
-          <img src="" alt="">
-        </figure>
-        <nav class="header-container-navbar-elements">
-          <figure>
-            <!-- hamburger icon -->
+  <div class="max-width-wrapper">
+    <header>
+      <div class="header-wrapper">
+        <div class="header-container-navbar">
+          <figure class="header-container-navbar-logo">
+              <img src="assets/shared/desktop/logo.svg" alt="coffee roasters logo">
           </figure>
-          <ul>
-            <li><a href="#"></a>Home</li>
-            <li><a href="#"></a>About Us</li>
-            <li><a href="#"></a>Create Your Plan</li>
-          </ul>
-        </nav>
+          <nav class="header-container-navbar-elements">
+            <figure>
+              <!-- hamburger icon -->
+            </figure>
+            <ul>
+              <li><a href="#"></a>Home</li>
+              <li><a href="#"></a>About Us</li>
+              <li><a href="#"></a>Create Your Plan</li>
+            </ul>
+          </nav>
+        </div>
+
         <div class="header-container-text">
           <h1>Great coffee made simple.</h1>
           <p>Start your mornings with the world’s best coffees. Try our expertly curated artisan 
@@ -34,106 +37,177 @@
           <a href="">Create your plan</a>
         </div>
       </div>
-      <div></div>
-    </div>
-  </header>
-  <main>
-    <section></section>
-    <section></section>
-    <section class="section-3-how-works-wrapper">
-      <h3>How it works</h3>
-      <div>
-        <div class="section-3-how-works-container-path-main">
-          <figure class="path-line">
-            <svg xmlns="http://www.w3.org/2000/svg" width="761" height="3" viewBox="0 0 761 3" fill="none">
-              <path d="M0.5 1.5H760.5" stroke="#FDD6BA" stroke-width="2"/>
-              </svg>
-          </figure>
-          <div class="section-3-how-works-container-path-circle">
-            <figure id="path-circle-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                <circle cx="15.5" cy="15.5" r="14.5" fill="#FEFCF7" stroke="#0E8784" stroke-width="2"/>
-              </svg>
+    </header>
+    
+    <main>
+      <section class="section-1-our-collection-wrapper">
+        <h2>Our collection</h2>
+        <div class="section-1-our-collection-container-main">
+          <div class="section-1-our-collection-container-product">
+            <figure>
+              <img src="assets/home/desktop/image-gran-espresso.png" alt="paper bag of gran espresso coffee beans">
             </figure>
-            <figure id="path-circle-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                <circle cx="15.5" cy="15.5" r="14.5" fill="#FEFCF7" stroke="#0E8784" stroke-width="2"/>
-              </svg>
+            <div>
+              <h3>Gran Espresso</h3>
+              <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+            </div>
+          </div>
+          <div class="section-1-our-collection-container-product">
+            <figure>
+              <img src="assets/home/desktop/image-planalto.png" alt="paper bag of planalto coffee beans">
             </figure>
-            <figure id="path-circle-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-              <circle cx="15.5" cy="15.5" r="14.5" fill="#FEFCF7" stroke="#0E8784" stroke-width="2"/>
-              </svg>
+            <div>
+              <h3>Planalto</h3>
+              <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+            </div>
+          </div>
+          <div class="section-1-our-collection-container-product">
+            <figure>
+              <img src="assets/home/desktop/image-piccollo.png" alt="paper bag of piccollo coffee beans">
             </figure>
+            <div>
+              <h3>Piccollo</h3>
+              <p>Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
+            </div>
+          </div>
+          <div class="section-1-our-collection-container-product">
+            <figure>
+              <img src="assets/home/desktop/image-danche.png" alt="paper bag of danche coffee beans">
+            </figure>
+            <div>
+              <h3>Danche</h3>
+              <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
+            </div>
           </div>
         </div>
-
+      </section>
+      <section class="section-2-why-us-wrapper">
+        <div class="section-2-why-us-container-main">
+          <div class="section-2-why-us-container-text">
+            <h3>Why choose us?</h3>
+            <p>A large part of our role is choosing which particular coffees will be featured 
+              in our range. This means working closely with the best coffee growers to give 
+              you a more impactful experience on every level.</p>
+          </div>
+          <div class="section-2-why-us-wrapper-card">
+            <div class="section-2-why-us-container-card-main">
+              <div class="section-2-why-us-container-individual-card">
+                <figure class="section-2-why-us-container-individual-card-icon">
+                  <img src="assets/home/desktop/icon-coffee-bean.svg" alt="image of a coffee bean icon">
+                </figure>
+                <div class="section-2-why-us-container-individual-card-text">
+                  <h4>Best quality</h4>
+                  <p>Discover an endless variety of the world's best artisan coffee from each of our roasters.</p>
+                </div>
+              </div>
+              <div class="section-2-why-us-container-individual-card">
+                <figure class="section-2-why-us-container-individual-card-icon">
+                  <img src="assets/home/desktop/icon-gift.svg" alt="image of a gift icon">
+                </figure>
+                <div class="section-2-why-us-container-individual-card-text">
+                  <h4>Exclusive benefits</h4>
+                  <p>Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                </div>
+              </div>
+              <div class="section-2-why-us-container-individual-card">
+                <figure class="section-2-why-us-container-individual-card-icon">
+                  <img src="assets/home/desktop/icon-truck.svg" alt="image of a delivery truck icon">
+                </figure>
+                <div class="section-2-why-us-container-individual-card-text">
+                  <h4>Free shipping</h4>
+                  <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-3-how-it-works-wrapper">
+        <h3>How it works</h3>
+        <div class="section-3-how-it-works-container-main">
+          <div class="section-3-how-it-works-container-path-main">
+            <figure class="path-line">
+              <svg xmlns="http://www.w3.org/2000/svg" width="761" height="3" viewBox="0 0 761 3" fill="none">
+                <path d="M0.5 1.5H760.5" stroke="#FDD6BA" stroke-width="2"/>
+                </svg>
+            </figure>
+            <div class="section-3-how-it-works-container-path-circle">
+              <figure id="path-circle-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                  <circle cx="15.5" cy="15.5" r="14.5" fill="#FEFCF7" stroke="#0E8784" stroke-width="2"/>
+                </svg>
+              </figure>
+              <figure id="path-circle-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                  <circle cx="15.5" cy="15.5" r="14.5" fill="#FEFCF7" stroke="#0E8784" stroke-width="2"/>
+                </svg>
+              </figure>
+              <figure id="path-circle-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                <circle cx="15.5" cy="15.5" r="14.5" fill="#FEFCF7" stroke="#0E8784" stroke-width="2"/>
+                </svg>
+              </figure>
+            </div>
+          </div>
+          <div class="section-3-how-it-works-container-card-main">
+            <div class="section-3-how-it-works-container-individual-card">
+              <p class="section-3-how-it-works-container-individual-card-number">
+                01
+              </p>
+              <h4>Pick your coffee</h4>
+              <p class="section-3-how-it-works-container-individual-card-text">
+                Select from our evolving range of artisan coffees. Our beans are ethically 
+                sourced and we pay fair prices for them. There are new coffees in all profiles 
+                every month for you to try out.
+              </p>
+            </div>
+            <div class="section-3-how-it-works-container-individual-card">
+              <p class="section-3-how-it-works-container-individual-card-number">
+                02
+              </p>
+              <h4>Choose the frequency</h4>
+              <p class="section-3-how-it-works-container-individual-card-text">
+                Customize your order frequency, quantity, even your roast style and grind type. 
+                Pause, skip or cancel your subscription with no commitment through our online portal.
+              </p>
+            </div>
+            <div class="section-3-how-it-works-container-individual-card">
+              <p class="section-3-how-it-works-container-individual-card-number">
+                03
+              </p>
+              <h4>Receive and enjoy!</h4>
+              <p class="section-3-how-it-works-container-individual-card-text">
+                We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
+                world-class coffees curated to provide a distinct tasting experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="section-3-how-it-works-container-button">
+          <a href="#">Create your plan</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-wrapper">
+      <div class="footer-container-main">
+        <figure>
+          <img src="assets/shared/desktop/logo.svg" alt="coffee roasters logo">
+        </figure>
+        <div class="footer-container-page-links">
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Create a plan</li>
+          </ul>
+        </div>
+        <div class="footer-container-social-links">
+          <a href="#"><img src="assets/shared/desktop/icon-facebook.svg" alt="facebook icon"></a>
+          <a href="#"><img src="assets/shared/desktop/icon-twitter.svg" alt="twitter icon"></a>
+          <a href="#"><img src="assets/shared/desktop/icon-instagram.svg" alt="instagram icon"></a>
+          <a href="#"></a>
+        </div>
       </div>
-    </section>
-  </main>
-  
-  Home
-  About us
-  Create your plan
-
-  Great coffee made simple.
-
-  Start your mornings with the world’s best coffees. Try our expertly curated artisan 
-  coffees from our best roasters delivered directly to your door, at your schedule.
-
-  Create your plan
-
-  Our collection
-
-  Gran Espresso
-  Light and flavorful blend with cocoa and black pepper for an intense experience
-
-  Planalto
-  Brazilian dark roast with rich and velvety body, and hints of fruits and nuts
-
-  Piccollo
-  Mild and smooth blend featuring notes of toasted almond and dried cherry
-
-  Danche
-  Ethiopian hand-harvested blend densely packed with vibrant fruit notes
-
-  Why choose us?
-
-  A large part of our role is choosing which particular coffees will be featured 
-  in our range. This means working closely with the best coffee growers to give 
-  you a more impactful experience on every level.
-
-  Best quality
-  Discover an endless variety of the world’s best artisan coffee from each of our roasters.
-
-  Exclusive benefits
-  Special offers and swag when you subscribe, including 30% off your first shipment.
-
-  Free shipping 
-  We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.
-
-  
-
-  01
-  Pick your coffee
-  Select from our evolving range of artisan coffees. Our beans are ethically 
-  sourced and we pay fair prices for them. There are new coffees in all profiles 
-  every month for you to try out.
-
-  02
-  Choose the frequency
-  Customize your order frequency, quantity, even your roast style and grind type. 
-  Pause, skip or cancel your subscription with no commitment through our online portal.
-
-  03
-  Receive and enjoy!
-  We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
-  world-class coffees curated to provide a distinct tasting experience.
-
-  Create your plan
-
-  Home
-  About us
-  Create your plan
+    </footer>
+  </div>
 </body>
 </html>
